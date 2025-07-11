@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="html.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <a href="#home" class="logo" onclick="showPage('home')">PORTFOLIO</a>
+    <nav class="sai">
+      <a href="#home" onclick="showPage('home')"><i class="fas fa-home"></i> HOME</a>
+      <a href="#skills" onclick="showPage('skills')"><i class="fas fa-wrench"></i> SKILLS</a>
+      <a href="#certifications" onclick="showPage('certifications')"><i class="fas fa-certificate"></i> CERTIFICATIONS</a>
+      <a href="#education" onclick="showPage('education')"><i class="fas fa-book-open"></i> EDUCATION</a>
+      <a href="#contactme" onclick="showPage('contactme')"><i class="fas fa-phone"></i> CONTACT ME</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="image">
+      <img src="https://i.postimg.cc/8cX8432J/jlx-Zo07-OSj-WWu-TA8y-CBO1-Q.webp" alt="profile">
+
+      <div id="home" class="container">
+        <div class="home-content">
+          <h1>Welcome to My Portfolio,</h1><br>
+          <i>Hi, I'm D.Sai Satish, a passionate web developer with a strong background in front-end and back-end technologies.I'm always excited to learn new technologies and take on new challenges. My goal is to grow as a developer by building meaningful and impactful projects.</i>
+          <i>Feel free to explore my work, check out my certifications, or connect with me for collaborations and opportunities.</i>
+          <p>Explore my portfolio and download my resume to learn more about my skills, education, and experiences.</p>
+          <a href="https://github.com/satish2131/Portfolio_files/blob/3c682e46668940a0eaf69f7235066e83371eeb9c/resume.pdf" class="btn" target="_blank"><i class="fas fa-download"></i> Download My Resume</a>
+        </div>
+      </div>
+
+      <div id="skills" class="container" style="display:none;">
+        <h2>These are my Technical Skills</h2><br>
+        <ul>
+          <li>HTML, CSS and JavaScript</li>
+          <li>Java</li>
+          <li>Python</li>
+          <li>C++</li>
+          <li>AI and Data Skills</li>
+          <li>Machine Learning with Python</li>
+          <li>SQL</li>
+          <li>Data Structures</li>
+        </ul>
+        <a href="#certifications"  class="btn" onclick="showPage('certifications')" ><i class="fas fa-star"></i> Click Here For Certifications</a>
+      </div>
+
+      <div id="certifications" class="container" style="display:none;">
+        <h2>My Certifications <i class="fas fa-star" style="color: yellow;"></i></h2><br>
+        <p>Click on the following technologies to download certificates</p><br>
+        <ul>
+          <li><a href="https://github.com/satish2131/.../Java%20certificate%20.pdf" target="_blank">Java</a></li>
+          <li><a href="https://github.com/satish2131/Portfolio_files/blob/5427529d7ecf7c7ea3947059e05e08b88696b54d/Python%20certificate%20.pdf" target="_blank">Python</a></li>
+          <li><a href="https://github.com/satish2131/Portfolio_files/blob/5427529d7ecf7c7ea3947059e05e08b88696b54d/ai%20and%20dataskills%20certification.pdf" target="_blank">AI and Data Skills</a></li>
+          <li><a href="https://github.com/satish2131/Portfolio_files/blob/5427529d7ecf7c7ea3947059e05e08b88696b54d/cloud%20foundations%20(aws%20academy).pdf" target="_blank">AWS Academy Cloud Foundations</a></li>
+          <li><a href="https://github.com/satish2131/Portfolio_files/blob/5427529d7ecf7c7ea3947059e05e08b88696b54d/AWS_Academy_Cloud_Security_Foundations%20certificate.pdf" target="_blank">AWS Academy Cloud Security Foundations</a></li>
+          
+        </ul>
+      </div>
+
+      <div id="education" class="container" style="display:none;">
+        <div class="education-item">
+          <h2><i class="fas fa-graduation-cap"></i> B.Tech in Computer Science</h2>
+          <ul>
+            <li>College: PYDAH College of Engineering, Kakinada</li>
+            <li>2023 – 2026 (Pursuing)</li>
+            <li>Core: DS, AI & ML, DBMS, Python, Java</li>
+          </ul>
+        </div><br>
+
+        <div class="education-item">
+          <h2><i class="fas fa-graduation-cap"></i> Diploma</h2>
+          <ul>
+            <li>College: KIET College, Korangi</li>
+            <li>2020 – 2023</li>
+            <li>Percentage: 71%</li>
+          </ul>
+        </div><br>
+
+        <div class="education-item">
+          <h2><i class="fas fa-graduation-cap"></i> SSC</h2>
+          <ul>
+            <li>School: AMG English Medium High School</li>
+            <li>2018 – 2020</li>
+            <li>GPA: 8.1</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="contactme" class="container" style="display:none;">
+        <h2>Let's communicate <i class="fas fa-hand-paper"></i>:</h2>
+        <ul class="contact-details">
+          <li><i class="fas fa-envelope"></i> <a href="mailto:satishcm035@gmail.com">satishcm035@gmail.com</a></li>
+          <li><i class="fas fa-phone"></i> <a href="tel:+918309556855">+91 83095 56855</a></li>
+          <li><i class="fas fa-map-marker-alt"></i> Kakinada, Andhra Pradesh, India</li>
+          <li><i class="fab fa-github"></i> <a href="https://github.com/satish2131" target="_blank">github.com/satish2131</a></li>
+          <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+
+  <script>
+    function showPage(pageId) {
+      document.querySelectorAll('.container').forEach(page => page.style.display = 'none');
+      document.getElementById(pageId).style.display = 'block';
+    }
+  </script>
+</body>
+
+</html>
